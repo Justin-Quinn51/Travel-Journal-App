@@ -14,7 +14,7 @@ module.exports = {
         "earth": "#DADADA"
       },
       fontSize: {
-        "smallest": "0.64rem"
+        "2xs": "0.64rem"
       },
       fontFamily: {
         "inter": ['inter', 'sans-serif']

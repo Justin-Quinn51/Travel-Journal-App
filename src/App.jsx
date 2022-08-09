@@ -1,12 +1,12 @@
 import Header from "./components/Header"
-import Body from "./components/Body"
+import Place from "./components/Place"
 import data from "./data"
 
 function App() {
 const places = data.map(place => {
   return (
     <div className="App">
-      <Body 
+      <Place
         key={place.id}
         place={place}
       />
